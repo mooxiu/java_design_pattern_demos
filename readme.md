@@ -37,3 +37,10 @@ This is a study note for the course [Design Patterns in Java](https://www.udemy.
 - Strategy
 - Template Method
 - Visitor
+
+## Solid Design Principles
+
+### Single Responsibility Principle(SRP)
+
+- A class should have just a single reason to change
+- One primary responsibility
