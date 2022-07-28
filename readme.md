@@ -44,3 +44,10 @@ This is a study note for the course [Design Patterns in Java](https://www.udemy.
 
 - A class should have just a single reason to change
 - One primary responsibility
+
+### Open Closed Principle (OCP)
+- Open for extension
+- Close for modification
+
+class should not be written for aggregating a new feature
+
