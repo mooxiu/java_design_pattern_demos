@@ -40,14 +40,30 @@ This is a study note for the course [Design Patterns in Java](https://www.udemy.
 
 ## Solid Design Principles
 
-### Single Responsibility Principle(SRP)
+### 01. Single Responsibility Principle(SRP)
 
 - A class should have just a single reason to change
 - One primary responsibility
 
-### Open Closed Principle (OCP)
+### 02. Open Closed Principle (OCP)
 - Open for extension
 - Close for modification
 
 class should not be written for aggregating a new feature
 
+### 03. Liskov Substitution Principle (LSP)
+You should be able to substitute a subclass for a base class
+
+if you have some API, which takes a base class, you should be able to stick a subclass in there without things break in anyway
+
+> a superclass should be replaceable with objects of its subclasses without breaking the application.
+
+(https://blog.knoldus.com/what-is-liskov-substitution-principle-lsp-with-real-world-examples/#:~:text=Simply%20put%2C%20the%20Liskov%20Substitution,the%20objects%20of%20our%20superclass.)
+
+### 04. Interface Segregation Principle (ISP)
+>  Segregation: the action or state of setting someone or something apart from others
+
+a recommendation on how to split interfaces into smaller interfaces
+
+put absolute minimum code in an interface
+ 
