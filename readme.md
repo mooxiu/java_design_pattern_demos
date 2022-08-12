@@ -67,3 +67,17 @@ a recommendation on how to split interfaces into smaller interfaces
 
 put absolute minimum code in an interface
  
+
+### 05. Dependency Inversion Principle (DIP)
+not the same with dependency injection!
+
+1. High level modules should not depend on low level modules
+, both should depend on abstractions
+2. Abstractions should not depend on details
+, Details should depend on abstractions
+
+#### what is abstraction?
+abstract class or interface
+
+
+
